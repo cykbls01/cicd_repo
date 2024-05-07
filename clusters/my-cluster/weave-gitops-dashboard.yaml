@@ -35,6 +35,8 @@ spec:
   interval: 1h0m0s
   values:
     WEAVE_GITOPS_FEATURE_TELEMETRY: "true"
+    service:
+      type: NodePort
     adminUser:
       create: true
       passwordHash: $2a$10$UGD99HMSB5tM3Aa8rxvZGePOA5dEPrAeka20ZkjKJb9Rsv2yD90kK
